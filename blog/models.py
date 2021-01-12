@@ -13,6 +13,9 @@ class Post(models.Model):
     # 수정일
     published_date = models.DateTimeField(blank=True, null=True)
 
+    # migration test
+    # test = models.TextField()
+
     def __str__(self):
         return self.title
 
